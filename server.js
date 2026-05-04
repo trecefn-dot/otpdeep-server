@@ -2,7 +2,7 @@
 const http=require('http');
 const WebSocket=require('ws');
 const crypto=require('crypto');
-const PORT=process.env.PORT||3000;
+const PORT=process.env.PORT||8080;
 const MSG_TTL_MS=24*60*60*1000;
 const MAX_MSG_LEN=100000;
 const MAX_ROOM_MSGS=200;
